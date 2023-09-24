@@ -1,0 +1,191 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-color: #555;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos de las tarjetas de juegos */
+
+/* Estilo para la tarjeta "Juego 1" */
+.card-juego1 {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    width: 25rem;
+}
+
+.card-juego1:hover {
+    transform: scale(1.05);
+}
+
+.card-juego1 .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-juego1 .card-text {
+    font-size: 1rem;
+}
+
+.card-juego1 .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card-juego1 .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para la tarjeta "Juego 2" */
+.card-juego2 {
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    width: 25rem;
+    left: 25rem;
+}
+
+.card-juego2:hover {
+    transform: scale(1.05);
+}
+
+.card-juego2 .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-juego2 .card-text {
+    font-size: 1rem;
+}
+
+.card-juego2 .btn-primary {
+    background-color: #ff5733;
+    border-color: #ff5733;
+}
+
+.card-juego2 .btn-primary:hover {
+    background-color: #c9311b;
+    border-color: #c9311b;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
