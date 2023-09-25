@@ -29,11 +29,23 @@ p{
     }
 }
 
-nav {
+.navbar{
     background-color: #444;
     color: white;
     text-align: center;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
 }
 
 main {
